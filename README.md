@@ -3,6 +3,10 @@
 ## Description
 PedalConnect is a community platform designed for startup enthusiasts in Bangalore. It offers networking opportunities, mentorship programs, and workshops tailored to the needs of startups.
 
+https://github.com/bihanivaishali05/pedalconnect/assets/159774458/5421aab3-b0b6-4b00-b8a7-7be9691aa7c8
+
+
+
 ## Features
 - Networking Opportunities: Connect with industry experts and like-minded individuals.
 - Mentorship Programs: Gain insights from successful entrepreneurs.
