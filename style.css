@@ -1,0 +1,207 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Utility Classes */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #555;
+}
+
+/* Navigation Bar */
+nav {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#logo {
+  float: left;
+  margin-left: 20px;
+}
+
+/* Showcase */
+#showcase {
+  background: url('showcase.jpg') no-repeat center center/cover;
+  color: #fff;
+  height: 100vh;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Value Proposition */
+#value-proposition {
+  background: #f4f4f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Main Content */
+#main-content {
+  background: #f4f4f4;
+  padding: 50px 0;
+}
+
+.benefits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  text-align: center;
+}
+
+.benefit-item {
+  background: #fff;
+  padding: 20px;
+}
+
+/* Testimonials */
+#testimonials {
+  background: #333;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.testimonial-item {
+  background: #444;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Signup Form */
+#signup {
+  background: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+#signup form {
+  width: 50%;
+  margin: auto;
+}
+
+#signup input[type='text'],
+#signup input[type='email'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#signup input[type='submit'] {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Footer */
+#main-footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* FAQs Section Styles */
+#faqs {
+  background: #f4f4f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+/* Social Links Section Styles */
+#social-links {
+  background: #333;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#social-links .btn {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background: #555;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+#social-links .btn:hover {
+  background: #777;
+}
+
+/* Additional styles for the signup form */
+#signup-form {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+#signup-form input[type='text'],
+#signup-form input[type='email'],
+#signup-form input[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#signup-form input[type='submit'] {
+  background: #5cb85c;
+  color: white;
+  border: 0;
+}
+
+#signup-form input[type='submit']:hover {
+  background: #4cae4c;
+}
