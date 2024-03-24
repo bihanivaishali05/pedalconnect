@@ -8,7 +8,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Modal functionality (Assuming there's a modal in your HTML)
+// Modal functionality 
 const modal = document.getElementById('signup-modal');
 const openModalBtn = document.getElementById('signup-button');
 const closeModalBtn = document.getElementsByClassName('close-modal')[0];
